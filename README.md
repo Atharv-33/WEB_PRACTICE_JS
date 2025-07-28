@@ -1,0 +1,3 @@
+This is basic HTML and  JS practice done for the purpose of learning ...
+Starting from the basics of the Javascript Programming language which is basically Inferred type programming language
+Also scripts are from  basic to advance hope found this helpful to beginners..
