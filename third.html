@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables And Data Types in javaSript</title>
+    <link rel="stylesheet" href="third.css" />
+  </head>
+  <body>
+    <main>
+      <h3>This web page shows the Data Types and variables in Java Script.</h3>
+      
+      <table>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Example</th>
+        </tr>
+        <tr>
+          <td>undefined</td>
+          <td>When object/ variable is not initialized its .</td>
+          <td>
+            var variable;<br />
+            console.log(variable);<br>
+            console.log(typeof variable);
+          </td>
+        </tr>
+        <tr>
+          <td>null</td>
+          <td>
+            The null value represents the intentional absence of any object
+            value. It is one of JavaScript's primitive values and is treated as
+            falsy for boolean operations
+          </td>
+          <td>
+            let b = null;<br />
+            console.log(b);<br />
+            console.log(typeof b);
+          </td>
+        </tr>
+        <tr>
+          <td>numbers</td>
+          <td>Represents both numeric and floating points also .</td>
+          <td>
+            let dec = 10;<br> console.log(dec); <br>console.log( typeof dec);<br><br>
+             let float = 17.77;<br> console.log(float); <br>console.log(typeof float);
+          </td>
+        </tr>
+        <tr>
+          <td> strings</td>
+          <td> Strings in javascript represents the textual data.</td>
+          <td>  let str = "Hello this is Atharv ";<br>
+                console.log(str);<br>
+                console.log(typeof str);
+            </td>
+        </tr>
+        <tr>
+          <td> boolean </td>
+          <td> To represents true and false as values.</td>
+          <td>  let bool = true;<br>
+                 console.log(bool);<br>
+                console.log(typeof bool);
+            </td>
+        </tr>
+        <tr>
+          <td> Object </td>
+          <td> Objects in js used to show the complex entities like arrays and function and also to define the  user defined types. </td>
+          <td>  const student={<br>
+                name:"Abcd",<br>
+                marks:100, <br>
+                };<br>
+
+                console.log(student.name);<br>
+                 console.log(student.marks);<br>
+                 console.log(typeof student);
+            </td>
+        </tr>
+        <tr>
+          <td> symbol </td>
+          <td> Symbol is a built-in object whose constructor returns a symbol primitive 
+            — also called a Symbol value or just a Symbol — that's guaranteed to be unique.
+          </td>
+          <td> const sym1 = Symbol("abcd");<br>
+                console.log(typeof sym1);<br>   
+                 console.log(Symbol("a") == Symbol("a"));
+            </td>
+        </tr>
+      </table>
+    </main>
+    <script src="third.js"></script>
+  </body>
+</html>
